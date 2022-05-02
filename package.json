@@ -1,0 +1,10 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "dev": "lerna run dev --parallel --stream --scope=@monorepo/{nest-api-server, react-app}"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}

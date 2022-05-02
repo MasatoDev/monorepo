@@ -1,9 +1,15 @@
+# MEMO
+
+## Setup
+
+### install tools
+
 ```bash
 npm install --global @nestjs/cli
 npm install --global lerna
 ```
 
-https://www.rasukarusan.com/entry/2021/03/23/230105
+### create packages
 
 ```bash
 mkdir monorepo
@@ -21,12 +27,9 @@ lerna create @monorepo/react-app ./packages/react-app
 lerna run dev
 ```
 
-:::tip
-setup react with webpack
-https://medium.com/age-of-awareness/setup-react-with-webpack-and-babel-5114a14a47e9
-:::
 
-:::tip
-lerna run options
+### lerna run options
+
 https://github.com/lerna/lerna/blob/main/commands/run/README.md
-:::
+
+
